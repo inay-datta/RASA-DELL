@@ -1,0 +1,121 @@
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: services
+  - action: utter_services
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: support
+  - action: utter_support
+  - intent: deny
+  - action: utter_goodbye
+
+- story: report issue and resolve
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: troubleshooting
+  - action: utter_troubleshooting
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire warranty and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: warranty
+  - action: utter_warranty
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire updates and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: updates
+  - action: utter_updates
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire buying and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: buying
+  - action: utter_buying
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire repair and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: repair
+  - action: utter_repair
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire returns and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: returns
+  - action: utter_returns
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire contact and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contact
+  - action: utter_contact
+  - intent: deny
+  - action: utter_goodbye
+
+- story: inquire drivers and follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: drivers
+  - action: utter_drivers
+  - intent: deny
+  - action: utter_goodbye

@@ -1,0 +1,89 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - services
+  - contact
+  - warranty
+  - support
+  - drivers
+  - returns
+  - buying
+  - troubleshooting
+  - updates
+  - repair
+  
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Sorry to hear that. Return back once you are good."
+    
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_services:
+  - text: "Dell offers a wide range of products including laptops, desktops, and servers."
+
+  utter_contact:
+  - text: "You can contact Dell support at 1-800-123-DELL."
+
+  utter_warranty:
+  - text: "Dell provides various warranty options. For details on your warranty, please visit Dell's official warranty support page."
+
+  utter_support:
+  - text: "Dell offers technical support through our website, phone support, and live chat. Visit Dell's support page for more information."
+
+  utter_drivers:
+  - text: "You can download drivers for your Dell products from the Dell Support website. Just enter your product's service tag or model number."
+
+  utter_returns:
+  - text: "Dell has a return policy for most products. Please check the Dell Returns & Exchanges page for more details."
+
+  utter_buying:
+  - text: "To purchase Dell products, visit our official website or contact a Dell sales representative for personalized assistance."
+
+  utter_troubleshooting:
+  - text: "For troubleshooting Dell products, visit our Support page for guides and diagnostics tools."
+
+  utter_updates:
+  - text: "Dell regularly updates its products with the latest features and fixes. Check the Dell Support page for product updates and patches."
+
+  utter_repair:
+  - text: "If you need repairs for your Dell product, you can schedule a repair service through Dell's Support page or contact our repair center."
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+  #  "hello": "Hello! How can I assist you today?",
+  #   "services": "Dell offers a wide range of products including laptops, desktops, and servers.",
+  #   "contact": "You can contact Dell support at 1-800-123-DELL.",
+  #   "warranty": "Dell provides various warranty options. For details on your warranty, please visit Dell's official warranty support page.",
+  #   "support": "Dell offers technical support through our website, phone support, and live chat. Visit Dell's support page for more information.",
+  #   "drivers": "You can download drivers for your Dell products from the Dell Support website. Just enter your product's service tag or model number.",
+  #   "returns": "Dell has a return policy for most products. Please check the Dell Returns & Exchanges page for more details.",
+  #   "buying": "To purchase Dell products, visit our official website or contact a Dell sales representative for personalized assistance.",
+  #   "troubleshooting": "For troubleshooting Dell products, visit our Support page for guides and diagnostics tools.",
+  #   "updates": "Dell regularly updates its products with the latest features and fixes. Check the Dell Support page for product updates and patches.",
+  #   "repair": "If you need repairs for your Dell product, you can schedule a repair service through Dell's Support page or contact our repair center."

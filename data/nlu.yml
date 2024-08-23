@@ -1,0 +1,296 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: services
+  examples: |
+    - services
+    - what services
+    - your services
+    - services you offer
+    - tell me about services
+    - what can you do
+    - what can you help with
+    - what do you offer
+    - support offered
+    - help me with
+
+- intent: contact
+  examples: |
+    - contact
+    - how to contact
+    - contact details
+    - how can I reach you
+    - contact information
+    - get in touch
+    - reach out
+    - how to get in touch
+    - what is your contact info
+    - how can I contact you
+
+- intent: warranty
+  examples: |
+    - warranty
+    - warranty information
+    - what is the warranty
+    - warranty details
+    - how does the warranty work
+    - warranty policy
+    - do you offer warranty
+    - warranty coverage
+    - what is covered by warranty
+    - how long is the warranty
+
+- intent: support
+  examples: |
+    - support
+    - need support
+    - help
+    - technical support
+    - customer support
+    - support services
+    - how can I get support
+    - what support do you offer
+    - can you help me
+    - how to get help
+
+- intent: drivers
+  examples: |
+    - drivers
+    - driver information
+    - what are the drivers
+    - driver details
+    - what drivers are needed
+    - how do I get drivers
+    - driver requirements
+    - where can I find drivers
+    - what drivers do you offer
+    - tell me about drivers
+
+- intent: returns
+  examples: |
+    - returns
+    - return policy
+    - how to return
+    - return process
+    - can I return a product
+    - how do I return an item
+    - return information
+    - what is the return policy
+    - details on returns
+    - how to get a refund
+
+- intent: buying
+  examples: |
+    - buying
+    - how to buy
+    - purchase
+    - how do I purchase
+    - buying process
+    - how to place an order
+    - where can I buy
+    - buy product
+    - how can I buy
+    - what is the buying process
+
+- intent: troubleshooting
+  examples: |
+    - troubleshooting
+    - how to troubleshoot
+    - troubleshoot issue
+    - help with problems
+    - fix problems
+    - troubleshooting guide
+    - how to solve issues
+    - problem resolution
+    - issue help
+    - steps to troubleshoot
+
+- intent: updates
+  examples: |
+    - updates
+    - what’s new
+    - new features
+    - product updates
+    - recent updates
+    - latest news
+    - update information
+    - what has changed
+    - any new updates
+    - latest changes
+
+- intent: repair
+  examples: |
+    - repair
+    - how to repair
+    - repair services
+    - fix issue
+    - get something repaired
+    - repair process
+    - how do I repair
+    - repair information
+    - repair options
+    - repair details
+
+
+
+
+
+
+# kallu moosi yochisthe
+# akkadikocchav mundhe mundhe
+# na loni maunamai santhosham
+# icchav pilla mundhe
+# idhi nijama vivarinche
+# ellora prathima ...
+# pasi chilaka pasi chilaka
+# ni kalale kananaane..
+# paravasame balapadaga ne
+# neevanukonane cherane...
+# kallu moosi yochisthe
+# akkadikocchav mundhe mundhe
+# na loni maunamai santhosham
+# icchav pilla mundhe
+# idhi nijama vivarinche
+# ellora prathima ...
+# pasi chilaka pasi chilaka
+# ni kalale kananaane..
+# paravasame balapadaga ne
+# neevanukunnane cherane...
+
+
+# kadalai pongina maatalu anni
+# muthyapu chinukulai raale ..
+# mounam mingina maatalu
+# maathram madhi vidave..
+# daare theliyani kaallaku adugulu
+# nerpinchavu ga nestham..
+# dhooram , bhaaram , kaalam
+# anni dhigadhudupe..
+# yedaloki premosthe
+# kammenu kalavarame...
+# minneti merupalle
+# viharisthanu kshaname...
+# oh ooooooooo....
+
+# kallu moosi yochisthe
+# akkadikocchav mundhe mundhe
+# na loni maunamai santhosham
+# icchav pilla mundhe
+# idhi nijama vivarinche
+# ellora prathima ...
+# pasi chilaka pasi chilaka
+# ni kalale kananaane..
+# paravasame balapadaga ne
+# neevanukunnaneee
+# pasi chilaka pasi chilaka
+# ni kalale kananaane..
+# paravasame balapadaga ne
+# neevanukunnane cherane...
+
+# aase chinna thamara mullai
+# vechani gundane podiche..
+# mounam koncham balapadi
+# malli usi gulupe..
+# ayyo bhoomi nanne vidichi
+# thanakai chuttu vethike..
+# aina dhaage yedhalo edo oka maikam..
+# ide prema tholi malupa..
+# thanamaina cheli thalapa..
+# oka moham oka paasam
+# kudipese kada madhuram..
+
+
+# kallu moosi yochisthe
+# akkadikocchav mundhe mundhe
+# na loni maunamai santhosham
+# icchav pilla mundhe
+# idhi nijama vivarinche ellora prathima

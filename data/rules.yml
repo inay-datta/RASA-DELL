@@ -1,0 +1,60 @@
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Respond to services inquiry
+  steps:
+  - intent: services
+  - action: utter_services
+
+- rule: Respond to contact inquiry
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- rule: Respond to warranty inquiry
+  steps:
+  - intent: warranty
+  - action: utter_warranty
+
+- rule: Respond to support inquiry
+  steps:
+  - intent: support
+  - action: utter_support
+
+- rule: Respond to drivers inquiry
+  steps:
+  - intent: drivers
+  - action: utter_drivers
+
+- rule: Respond to returns inquiry
+  steps:
+  - intent: returns
+  - action: utter_returns
+
+- rule: Respond to buying inquiry
+  steps:
+  - intent: buying
+  - action: utter_buying
+
+- rule: Respond to troubleshooting inquiry
+  steps:
+  - intent: troubleshooting
+  - action: utter_troubleshooting
+
+- rule: Respond to updates inquiry
+  steps:
+  - intent: updates
+  - action: utter_updates
+
+- rule: Respond to repair inquiry
+  steps:
+  - intent: repair
+  - action: utter_repair
